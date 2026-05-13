@@ -66,6 +66,8 @@ class Item(Base):
     description = Column(String, nullable=True) #nullabl trye ka mtlb ye coumn emty bhi hiskta ahi
     price = Column(Float)
 
+# ana
+
 
 
 

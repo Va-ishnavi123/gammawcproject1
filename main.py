@@ -488,8 +488,7 @@ def update_item(
     db_item.price = item.price
     db.commit()
     return db_item
-
-
+@app.get("/about")
 @app.patch("/items/{item_id}")
 def patch_item(
     item_id: int,
