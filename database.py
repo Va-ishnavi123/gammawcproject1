@@ -149,6 +149,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 # Create engine (connects to PostgreSQL)
 engine = create_engine(DATABASE_URL)
 
+
 # Create DB session factory
 SessionLocal = sessionmaker(
     autocommit=False,
